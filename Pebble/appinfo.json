@@ -1,0 +1,44 @@
+{
+  "uuid": "af17efe7-2141-4eb2-b62a-19fc1b595595",
+  "shortName": "PKAT3-pebble",
+  "longName": "PKAT3-pebble",
+  "companyName": "Pebble",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "bitmap",
+        "name": "ROCK",
+        "file": "images/rock.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "PAPER",
+        "file": "images/paper.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "SCISSORS",
+        "file": "images/scissors.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "UNKNOWN",
+        "file": "images/unknown.png"
+      }
+    ]
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt",
+    "chalk"
+  ],
+  "sdkVersion": "3"
+}
